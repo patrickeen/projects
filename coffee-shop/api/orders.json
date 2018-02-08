@@ -1,17 +1,12 @@
 [
-	{
-		"id": 1,
-		"name": "Will",
-		"drink": "Americano /w Creme"
-	},
-	{
-		"id": 2,
-		"name": "Laura",
-		"drink": "Vanilla Macchiato"
-	},
-	{
-		"id": 3,
-		"name": "John",
-		"drink": "Water"
-	}
+  {
+    "id": 1,
+    "name": "Will",
+    "drink": "coffee"
+  },
+  {
+    "id": 2,
+    "name": "Laura",
+    "drink": "americano w/ latte"
+  }
 ]
