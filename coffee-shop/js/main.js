@@ -32,7 +32,7 @@ $(function(){
 			url: 'api/orders.json',
 			data: order,
 			success: function(newOrder){
-				$orders.append('<li>name: ' + newOrder.name + ', drink: ' + newOrder.drink + '</li>');
+				$orders.append('<li>name: ' + order.name + ', drink: ' + order.drink + '</li>');
 			},
 			error: function(){
 				alert('error saving order');
@@ -40,6 +40,5 @@ $(function(){
 		});
 
 	});
-	
 
 });
